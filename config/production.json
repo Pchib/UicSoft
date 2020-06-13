@@ -1,0 +1,9 @@
+{
+  "host": "localhost",
+  "devURL": "http://localhost:3002",
+  "env": "development",
+  "dbURL": "mongodb://localhost:27017/uicExam",
+  "secret": "This is isaac secret for JWT",
+  "types": [1, 2, 3],
+  "numbers": [10, 10, 10]
+}

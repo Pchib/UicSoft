@@ -3,7 +3,6 @@ const app = express();
 const cors = require('cors');
 const bodyParser= require('body-parser')
 const config = require('./config/config'); 
-const sendAnswer = require('./routes/sendMessage')
 const mongoose = require('mongoose')
 // mongoose.connect(config.dbURL, { useNewUrlParser: true, useCreateIndex: true, },function(error){
 //     if(error) throw error
@@ -28,12 +27,6 @@ if(process.env.NODE_ENV ==='production'){
     })
   }
   
-
-app.route('/api/exam')
-   
-    .post(function(req, res){
-        sendAnswer(req, res)
-    })
 
 
 // app.get('/payload', function(req, res){

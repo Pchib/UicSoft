@@ -29,8 +29,8 @@ export default class Portfolio extends Component {
                             <div class="portfolio-thumb">
                                 <img src="assets/images/yu4.png" class="fluid-img wow fadeInUp" data-wow-delay="1s" alt="portfolio img"/>
                                 <div class="portfolio-overlay">
-            <a href="#" class="fa fa-search"></a>
-            <a href="#" class="fa fa-link"></a>
+            <a href="https://uicstore.herokuapp.com" class="fa fa-search"></a>
+            <a href="https://uicstore.herokuapp.com" class="fa fa-link"></a>
             <h4>E-Commerce Webapp</h4>
             <p>Online Store</p>
         </div>
@@ -40,8 +40,8 @@ export default class Portfolio extends Component {
                             <div class="portfolio-thumb">
                                 <img src="assets/images/yu5.png" class="fluid-img wow fadeInDown" data-wow-delay="1s"alt="portfolio img"/>
                                 <div class="portfolio-overlay">
-            <a href="#" class="fa fa-search"></a>
-            <a href="#" class="fa fa-link"></a>
+            <a href="https://stark-spire-74770.herokuapp.com" class="fa fa-search"></a>
+            <a href="https://stark-spire-74770.herokuapp.com" class="fa fa-link"></a>
             <h4>Bakery Website</h4>
             <p>Static and responsive Website</p>
         </div>
@@ -50,8 +50,8 @@ export default class Portfolio extends Component {
                             <div class="portfolio-thumb">
                                 <img src="assets/images/yu.png" class="fluid-img wow fadeIn" data-wow-delay="1s" alt="portfolio img"/>
                                 <div class="portfolio-overlay">
-            <a href="#" class="fa fa-search"></a>
-            <a href="#" class="fa fa-link"></a>
+            <a href="https://uicexamportal.herokuapp.com" class="fa fa-search"></a>
+            <a href="https://uicexamportal.herokuapp.com" class="fa fa-link"></a>
             <h4>Examination Portal</h4>
             <p>Online Exam Portal</p>
         </div>

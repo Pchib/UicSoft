@@ -34,18 +34,7 @@ export default class Team extends Component {
                                         <li><a href="#" class="wow fadeInUp fa fa-pinterest" data-wow-delay="2s"></a></li>
                                     </ul>
                                 </div>
-                                <div class="col-md-4 col-sm-4  mt-5 wow fadeInLeft  teammarg" data-wow-delay="0.9s">
-                                    <img src="assets/images/team3.jpg" class="img-responsive" alt="team img"/>
-                                    <h4 class="wow bounce"data-wow-delay="2s">Joshua</h4>
-                                    <h3>Graphics Designer</h3>
-                                    <p>Alway Belive in yourself</p>
-                                    <ul class="social-icon text-center">
-                                        <li><a href="#" class="wow fadeInUp fa fa-facebook" data-wow-delay="2s"></a></li>
-                                        <li><a href="#" class="wow fadeInDown fa fa-twitter" data-wow-delay="2s"></a></li>
-                                        <li><a href="#" class="wow fadeIn fa fa-instagram" data-wow-delay="2s"></a></li>
-                                        <li><a href="#" class="wow fadeInUp fa fa-pinterest" data-wow-delay="2s"></a></li>
-                                    </ul>
-                                </div>
+                              
                             </div>
                         </div>
                     </div>

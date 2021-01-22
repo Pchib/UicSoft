@@ -4,20 +4,28 @@ export default class About extends Component {
     render() {
         return (
             <div>
-                                    <div id="about">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-6 col-sm-6 wow fadeInLeft" data-wow-delay="0.9s">
-                                    <h3>About Uic Soft</h3>
-                                    <h4>Smart, Light and Adaptive</h4>
-                                    <p>
-                                    <p> • Stand out –We have uniqee Design.</p> 
-<p>• More efficient – Outstanding webapp and andriod apps that makes your business standout.</p> 
+                <main id="main">
+                <section id="about">
 
-                                    </p>
-                                </div>
-                                <div class="col-md-6 col-sm-6 wow fadeInRight" data-wow-delay="0.9s">
-                                    <span class="text-top">Web Development <small>100%</small></span>
+<div class="container">
+  <div class="row">
+
+    <div class="col-lg-5 col-md-6">
+      <div class="about-img wow fadeInRight animated animated">
+        <img src="assets/img/about-img.jpg" alt=""/>
+      </div>
+    </div>
+
+    <div class="col-lg-7 col-md-6">
+      <div class="about-content wow fadeInLeft">
+        <h2>About UicSoft</h2>
+        <h3>Odio sed id eos et laboriosam consequatur eos earum soluta.</h3>
+            <ul>
+          <li><i class="ion-android-checkmark-circle"></i>  Smart, Light and Adaptive.</li>
+          <li><i class="ion-android-checkmark-circle"></i> Stand out –We have uniqee Design.</li>
+          <li><i class="ion-android-checkmark-circle"></i>More efficient – Outstanding webapp and andriod apps that makes your business standout.</li>
+        </ul>
+        <span class="text-top">Web Development <small>100%</small></span>
                                     <div class="progress">
                                         <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60"
                                             aria-valuemin="0" aria-valuemax="100" style={{width: '100%'}}></div>
@@ -37,11 +45,21 @@ export default class About extends Component {
                                         <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="70"
                                             aria-valuemin="0" aria-valuemax="100" style={{width: '70%'}}></div>
                                     </div>
-                                </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</section>
+                
+           
+    </main>
+                           
                             </div>
-                        </div>
-                    </div>
-            </div>
+                      
+                      
+           
+                      
         )
     }
 }

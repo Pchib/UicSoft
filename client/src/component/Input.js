@@ -30,14 +30,15 @@ export default class Input extends Component {
                     {/* <!-- start navigation --> */}
                     <Header/>
                     {/* <!-- end navigation --> */}
+                    <About/>
 
                     {/* <!-- start home --> */}
-                    <Home/>
                   
                     {/* <!-- end home --> */}
 
                     {/* <!-- start service --> */}
-<Service/>
+                   
+                    <Service/>
                    
                     {/* <!-- end service -->
 
@@ -47,7 +48,7 @@ export default class Input extends Component {
                     {/* <!-- end divider -->
 
                     <!-- start about --> */}
-                    <About/>
+                    
 
                     {/* <!-- end about -->
 
@@ -83,7 +84,8 @@ export default class Input extends Component {
 
                     <!-- start footer --> */}
                     <Footer/>
-
+                    {/* <Home/> */}
+                  
                     </body>
             </div>
         )

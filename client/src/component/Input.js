@@ -43,7 +43,11 @@ export default class Input extends Component {
                     {/* <!-- end service -->
 
                     <!-- start divider --> */}
+                     <Newsletter/>
+
                     <Divider/>
+                    <Portfolio/>
+
                  
                     {/* <!-- end divider -->
 
@@ -53,37 +57,35 @@ export default class Input extends Component {
                     {/* <!-- end about -->
 
                     <!-- start team --> */}
-                    <Team/>
+                    {/* <Team/> */}
 
                     {/* <!-- end team -->
 
                     <!-- start newsletter --> */}
-                    <Newsletter/>
                    
                     {/* <!-- end newsletter -->
 
                     <!-- start pricing --> */}
-                    <Pricing/>
+                    {/* <Pricing/> */}
 
                     {/* <!-- end pricing -->
 
                     <!-- start portfolio --> */}
-                    <Portfolio/>
 
                     {/* <!-- end portfolio -->
 
                     <!-- start contact --> */}
-                    <Contact/>
+                    {/* <Contact/> */}
                     
                     {/* <!-- end contact -->
 
                     <!-- start google map --> */}
-                    <Googlemaps/>
+                    {/* <Googlemaps/> */}
                     
                     {/* <!-- end google map -->
 
                     <!-- start footer --> */}
-                    <Footer/>
+                    {/* <Footer/> */}
                     {/* <Home/> */}
                   
                     </body>

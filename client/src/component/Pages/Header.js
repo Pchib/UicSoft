@@ -2,39 +2,77 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 export default function Header() {
     return (
-        <div className="header">
-               <div class="navbar navbar-fixed-top navbar-default" role="navigation">
-                        <div class="container">
-                            <div className="row">
-                                <div className="col-md-2 col-sm-2">
-                                <div class="navbar-header">
-                                <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                                    <span class="icon icon-bar"></span>
-                                    <span class="icon icon-bar"></span>
-                                    <span class="icon icon-bar"></span>
-                                </button>
-                                <a href="#" class="navbar-brand "><img src="assets/images/favicon.ico" class="img-responsive logo mt-5" alt="logo"/></a>
-                                <h1 style={{fontSize:"20px"}}><span className="span">U</span>ic <span className="span">S</span>oft</h1>
-                            </div>
-                                </div>
-                                <div className="col-md-10 col-sm-10">
-                            <div class="collapse navbar-collapse">
-                                <ul class="nav navbar-nav navbar-right">
-                                    <li><a href="#home" class="smoothScroll">HOME</a></li>
-                                    <li><a href="#service" class="smoothScroll">SERVICE</a></li>
-                                    <li><a href="#about" class="smoothScroll">ABOUT</a></li>
-                                    <li><a href="#team" class="smoothScroll">TEAM</a></li>
-                                    <li><a href="#pricing" class="smoothScroll">PRICING</a></li>
-                                    <li><a href="#portfolio" class="smoothScroll">PORTFOLIO</a></li>
-                                    <li><a href="#contact" class="smoothScroll">CONTACT</a></li>
-                                </ul>
-                            </div>
-                                </div>
-                            </div>
-                            
-
+        <div className="">
+               <header id="header">
+                    <div id="topbar">
+                    <div class="container">
+                        <div class="social-links">
+                        <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                        <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                        <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
                         </div>
                     </div>
-        </div>
+                    </div>
+
+                    <div class="container">
+
+                    <div class="logo float-left">
+                        <h1 class="text-light"><a href="#intro" class="scrollto"><span>UicSoft</span></a></h1>
+                        <a href="#header" class="scrollto"><img src="assets/img/logo.png" alt="" class="img-fluid"/></a>
+                    </div>
+
+                    <nav class="main-nav float-right d-none d-lg-block">
+                        <ul>
+                        <li class="active"><a href="#intro">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#team">Team</a></li>
+                        <li class="drop-down"><a href="">Drop Down</a>
+                            <ul>
+                            <li><a href="#">Drop Down 1</a></li>
+                            <li class="drop-down"><a href="#">Drop Down 2</a>
+                                <ul>
+                                <li><a href="#">Deep Drop Down 1</a></li>
+                                <li><a href="#">Deep Drop Down 2</a></li>
+                                <li><a href="#">Deep Drop Down 3</a></li>
+                                <li><a href="#">Deep Drop Down 4</a></li>
+                                <li><a href="#">Deep Drop Down 5</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Drop Down 3</a></li>
+                            <li><a href="#">Drop Down 4</a></li>
+                            <li><a href="#">Drop Down 5</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#footer">Contact Us</a></li>
+                        </ul>
+                    </nav>
+                    
+                    </div>
+                </header>
+                <section id="intro" class="clearfix">
+                    <div class="container d-flex h-100">
+                    <div class="row justify-content-center align-self-center">
+                    <div class="col-md-6 intro-info order-md-first order-last">
+                        <h2>Unified Innovation<br/> and Communication <span>Software!</span></h2>
+                        <div>
+                            <a href="#about" class="btn-get-started scrollto">Get Started</a>
+                        </div>
+                    </div>
+                        
+                        
+                
+                        <div class="col-md-6 intro-img order-md-last order-first">
+                        <img src="assets/img/intro-img.svg" alt="" class="img-fluid"/>
+                        </div>
+                    </div>
+
+                    </div>
+                </section>
+
+                <main id="main"/>
+          </div>
     )
 }

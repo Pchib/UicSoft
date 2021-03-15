@@ -30,60 +30,64 @@ export default class Input extends Component {
                     {/* <!-- start navigation --> */}
                     <Header/>
                     {/* <!-- end navigation --> */}
+                    <About/>
 
                     {/* <!-- start home --> */}
-                    <Home/>
                   
                     {/* <!-- end home --> */}
 
                     {/* <!-- start service --> */}
-<Service/>
+                   
+                    <Service/>
                    
                     {/* <!-- end service -->
 
                     <!-- start divider --> */}
+                     <Newsletter/>
+
                     <Divider/>
+                    <Portfolio/>
+
                  
                     {/* <!-- end divider -->
 
                     <!-- start about --> */}
-                    <About/>
+                    
 
                     {/* <!-- end about -->
 
                     <!-- start team --> */}
-                    <Team/>
+                    {/* <Team/> */}
 
                     {/* <!-- end team -->
 
                     <!-- start newsletter --> */}
-                    <Newsletter/>
                    
                     {/* <!-- end newsletter -->
 
                     <!-- start pricing --> */}
-                    <Pricing/>
+                    {/* <Pricing/> */}
 
                     {/* <!-- end pricing -->
 
                     <!-- start portfolio --> */}
-                    <Portfolio/>
 
                     {/* <!-- end portfolio -->
 
                     <!-- start contact --> */}
-                    <Contact/>
+                    {/* <Contact/> */}
                     
                     {/* <!-- end contact -->
 
                     <!-- start google map --> */}
-                    <Googlemaps/>
+                    {/* <Googlemaps/> */}
                     
                     {/* <!-- end google map -->
 
                     <!-- start footer --> */}
-                    <Footer/>
-
+                    {/* <Footer/> */}
+                    {/* <Home/> */}
+                  
                     </body>
             </div>
         )

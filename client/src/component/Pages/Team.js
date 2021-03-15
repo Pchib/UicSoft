@@ -13,7 +13,7 @@ export default class Team extends Component {
                                 <div class="col-md-4 col-sm-4 wow fadeInLeft  teammarg" data-wow-delay="0.3s">
                                     <img src="assets/images/team1.jpg" class="img-responsive" alt="team img"/>
                                     <h4 class="wow bounce"data-wow-delay="2s">Ugwu Isaac Chinenye</h4>
-                                    <h3 >Director and Full Stack Developer</h3>
+                                    <h3 >Director and Developer</h3>
                                     <p>Your ability to standout depends on the amount of knowlege embeded in you</p>
                                     <ul class="social-icon text-center">
                                         <li><a href="https://www.facebook.com/ugwu.isaac.5" class="wow fadeInUp fa fa-facebook" data-wow-delay="2s"></a></li>

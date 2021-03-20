@@ -30,7 +30,7 @@ export default class Input extends Component {
                     {/* <!-- start navigation --> */}
                     <Header/>
                     {/* <!-- end navigation --> */}
-                    <About/>
+                   
 
                     {/* <!-- start home --> */}
                   
@@ -46,6 +46,7 @@ export default class Input extends Component {
                      <Newsletter/>
 
                     <Divider/>
+                    <About/>
                     <Portfolio/>
 
                  

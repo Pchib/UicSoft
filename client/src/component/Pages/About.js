@@ -15,6 +15,7 @@ export default class About extends Component {
         <img src="assets/img/about-img.jpg" alt=""/>
       </div>
     </div>
+    
 
     <div class="col-lg-7 col-md-6">
       <div class="about-content wow fadeInLeft">

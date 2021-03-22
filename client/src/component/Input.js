@@ -12,6 +12,9 @@ import Portfolio from './Pages/Portfolio'
 import Contact from './Pages/Contact'
 import Googlemaps from './Pages/Googlemaps'
 import Footer from './Pages/Footer'
+import Testimonial from './Pages/testimonials'
+import Clients from './Pages/Clients'
+import Frequently from './Pages/Frequently'
 
 export default class Input extends Component {
     constructor(){
@@ -29,64 +32,36 @@ export default class Input extends Component {
                     <body data-spy="scroll" data-offset="50" data-target=".navbar-collapse">
                     {/* <!-- start navigation --> */}
                     <Header/>
-                    {/* <!-- end navigation --> */}
-                   
 
-                    {/* <!-- start home --> */}
-                  
-                    {/* <!-- end home --> */}
-
-                    {/* <!-- start service --> */}
-                   
                     <Service/>
                    
                     {/* <!-- end service -->
 
                     <!-- start divider --> */}
-                     <Newsletter/>
+                    <Newsletter/>
 
                     <Divider/>
                     <About/>
                     <Portfolio/>
-
+                    <Testimonial/>
                  
-                    {/* <!-- end divider -->
+                 
+                    <Team/>
 
-                    <!-- start about --> */}
+                
+                    <Clients/>
+
+                    <Pricing/>
+
+
+                    <Frequently/>
                     
-
-                    {/* <!-- end about -->
-
-                    <!-- start team --> */}
-                    {/* <Team/> */}
-
-                    {/* <!-- end team -->
-
-                    <!-- start newsletter --> */}
-                   
-                    {/* <!-- end newsletter -->
-
-                    <!-- start pricing --> */}
-                    {/* <Pricing/> */}
-
-                    {/* <!-- end pricing -->
-
-                    <!-- start portfolio --> */}
-
-                    {/* <!-- end portfolio -->
-
-                    <!-- start contact --> */}
                     {/* <Contact/> */}
                     
-                    {/* <!-- end contact -->
 
-                    <!-- start google map --> */}
                     {/* <Googlemaps/> */}
                     
-                    {/* <!-- end google map -->
-
-                    <!-- start footer --> */}
-                    {/* <Footer/> */}
+                    <Footer/>
                     {/* <Home/> */}
                   
                     </body>

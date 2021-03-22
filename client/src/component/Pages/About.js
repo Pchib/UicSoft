@@ -4,7 +4,7 @@ export default class About extends Component {
     render() {
         return (
             <div>
-                <main id="main">
+                {/* <main id="main"> */}
                 <section id="about">
 
 <div class="container">
@@ -12,7 +12,7 @@ export default class About extends Component {
 
     <div class="col-lg-5 col-md-6">
       <div class="about-img wow fadeInRight animated animated">
-        <img src="assets/img/about-img.jpg" alt=""/>
+        <img src="assets/img/about-img.png" alt=""/>
       </div>
     </div>
     
@@ -65,7 +65,7 @@ export default class About extends Component {
 </section>
                 
            
-    </main>
+    {/* </main> */}
                            
                             </div>
                       

@@ -14,7 +14,9 @@ body {
   color: #444;
   font-family: "Open Sans", sans-serif;
 }
-
+#lightbox{
+  display: none;
+}
 a {
   color: #1bb1dc;
   transition: 0.5s;

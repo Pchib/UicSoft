@@ -4,40 +4,91 @@ export default class Team extends Component {
     render() {
         return (
             <div>
-                                    <div id="team">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <h2 class="wow bounce">Meet the team</h2>
-                                </div>
-                                <div class="col-md-4 col-sm-4 wow fadeInLeft  teammarg" data-wow-delay="0.3s">
-                                    <img src="assets/images/team1.jpg" class="img-responsive" alt="team img"/>
-                                    <h4 class="wow bounce"data-wow-delay="2s">Ugwu Isaac Chinenye</h4>
-                                    <h3 >Director and Full Stack Developer</h3>
-                                    <p>Your ability to standout depends on the amount of knowlege embeded in you</p>
-                                    <ul class="social-icon text-center">
-                                        <li><a href="https://www.facebook.com/ugwu.isaac.5" class="wow fadeInUp fa fa-facebook" data-wow-delay="2s"></a></li>
-                                        <li><a href="https://github.com/Pchib" class="wow fadeInDown fa fa-github" data-wow-delay="2s"></a></li>
-                                        <li><a  href="https://www.instagram.com/ugwu.chi"class="wow fadeIn fa fa-instagram" data-wow-delay="2s"></a></li>
-                                        <li><a href="https://www.linkedin.com/in/isaac-ugwu-2b6355193" class="wow fadeInUp fa fa-linkedin" data-wow-delay="2s"></a></li>
-                                    </ul>
-                                </div>
-                                <div class="col-md-4 col-sm-4 mt-5 wow fadeInRight  teammarg" data-wow-delay="0.6s">
-                                    <img src="assets/images/team2.png" class="img-responsive" alt="team img"/>
-                                    <h4 class="wow bounce"data-wow-delay="2s">Uche Godswill</h4>
-                                    <h3>Manager and Digital Maketer</h3>
-                                    <p>Dont stop until you get there</p>
-                                    <ul class="social-icon text-center">
-                                        <li><a href="#" class="wow fadeInUp fa fa-facebook" data-wow-delay="2s"></a></li>
-                                        <li><a href="#" class="wow fadeInDown fa fa-twitter" data-wow-delay="2s"></a></li>
-                                        <li><a href="#" class="wow fadeIn fa fa-instagram" data-wow-delay="2s"></a></li>
-                                        <li><a href="#" class="wow fadeInUp fa fa-pinterest" data-wow-delay="2s"></a></li>
-                                    </ul>
-                                </div>
-                              
-                            </div>
-                        </div>
-                    </div>
+                           <section id="team" class="section-bg">
+      <div class="container">
+        <div class="section-header">
+          <h3>Team</h3>
+          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 wow fadeInUp">
+            <div class="member">
+              <img src="assets/img/team-1.jpg" class="img-fluid" alt=""/>
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Walter White</h4>
+                  <span>Chief Executive Officer</span>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="member">
+              <img src="assets/img/team-2.jpg" class="img-fluid" alt=""/>
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Sarah Jhonson</h4>
+                  <span>Product Manager</span>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="member">
+              <img src="assets/img/team-3.jpg" class="img-fluid" alt=""/>
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>William Anderson</h4>
+                  <span>CTO</span>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="member">
+              <img src="assets/img/team-4.jpg" class="img-fluid" alt=""/>
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Amanda Jepson</h4>
+                  <span>Accountant</span>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
             </div>
         )
     }

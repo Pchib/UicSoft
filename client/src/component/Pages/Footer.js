@@ -53,10 +53,10 @@ export default function Footer() {
                   </div>
 
                   <div class="social-links">
-                    <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-                    <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-                    <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-                    <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://www.uicsoft1@gmail.com" class="twitter"><i class="fa fa-google"></i></a>
+                    <a href="https://www.facebook.com/ugwu.isaac.5" class="facebook"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/uic__melody/" class="instagram"><i class="fa fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/isaac-ugwu-2b6355193" class="linkedin"><i class="fa fa-linkedin"></i></a>
                   </div>
 
                 </div>

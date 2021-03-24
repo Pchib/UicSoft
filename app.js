@@ -3,7 +3,7 @@ const app = express();
 const cors = require('cors');
 const bodyParser= require('body-parser')
 const config = require('./config/config'); 
-const mongoose = require('mongoose')
+// const mongoose = require('mongoose')
 // mongoose.connect(config.dbURL, { useNewUrlParser: true, useCreateIndex: true, },function(error){
 //     if(error) throw error
 //       console.log(`connect mongodb success`);

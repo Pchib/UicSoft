@@ -1,7 +1,7 @@
 // import {Link} from 'react-router-dom';
 import React, { Component } from 'react'
 import Service from './Pages/Service'
-import Header from './Pages/Header'
+import Header from './Pages/Header/Header'
 import Home from './Pages/Home'
 import Divider from './Pages/Divider'
 import About from './Pages/About'

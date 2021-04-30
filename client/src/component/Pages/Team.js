@@ -20,10 +20,10 @@ export default class Team extends Component {
                       <h4>Ugwu Isaac Chinenye</h4>
                       <span>Manager</span>
                       <div class="social">
-                      <a href="https://www.instagram.com/uic__melody/">
+                        <a href="https://www.instagram.com/uic__melody/">
                           <i class="fa fa-instagram"></i>
                         </a>
-                        <a   href="https://www.facebook.com/ugwu.isaac.5">
+                        <a href="https://www.facebook.com/ugwu.isaac.5">
                           <i class="fa fa-facebook"></i>
                         </a>
                         <a href="https://www.uicsoft1@gmail.com">
@@ -49,7 +49,7 @@ export default class Team extends Component {
                         <a href="https://www.instagram.com/uic__melody/">
                           <i class="fa fa-instagram"></i>
                         </a>
-                        <a   href="https://www.facebook.com/ugwu.isaac.5">
+                        <a href="https://www.facebook.com/ugwu.isaac.5">
                           <i class="fa fa-facebook"></i>
                         </a>
                         <a href="https://www.uicsoft1@gmail.com">
@@ -72,10 +72,10 @@ export default class Team extends Component {
                       <h4>Wale Akinpelu</h4>
                       <span>Graphic Designer</span>
                       <div class="social">
-                      <a href="https://www.instagram.com/uic__melody/">
+                        <a href="https://www.instagram.com/uic__melody/">
                           <i class="fa fa-instagram"></i>
                         </a>
-                        <a   href="https://www.facebook.com/ugwu.isaac.5">
+                        <a href="https://www.facebook.com/ugwu.isaac.5">
                           <i class="fa fa-facebook"></i>
                         </a>
                         <a href="https://www.uicsoft1@gmail.com">
@@ -98,10 +98,10 @@ export default class Team extends Component {
                       <h4>Moses Emeka</h4>
                       <span>Accountant</span>
                       <div class="social">
-                      <a href="https://www.instagram.com/uic__melody/">
+                        <a href="https://www.instagram.com/uic__melody/">
                           <i class="fa fa-instagram"></i>
                         </a>
-                        <a   href="https://www.facebook.com/ugwu.isaac.5">
+                        <a href="https://www.facebook.com/ugwu.isaac.5">
                           <i class="fa fa-facebook"></i>
                         </a>
                         <a href="https://www.uicsoft1@gmail.com">

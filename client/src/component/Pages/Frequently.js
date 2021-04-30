@@ -135,11 +135,11 @@ export default class Frequently extends Component {
                 </div>
               </li>
               <li>
-                <a data-toggle="collapse" href="#faq6" class="collapsed">
+                <a data-toggle="collapse" href="#faq7" class="collapsed">
                   How can I be sure you work at my project as much as you
                   declare?<i class="ion-android-remove"></i>
                 </a>
-                <div id="faq6" class="collapse" data-parent="#faq-list">
+                <div id="faq7" class="collapse" data-parent="#faq-list">
                   <p>
                     We thoroughly monitor our developers and control how much
                     time they spend on each task down to the exact minute. We
@@ -149,11 +149,11 @@ export default class Frequently extends Component {
                 </div>
               </li>
               <li>
-                <a data-toggle="collapse" href="#faq6" class="collapsed">
+                <a data-toggle="collapse" href="#faq8" class="collapsed">
                   I want to be involved in the app development process, do you
                   have a problem with that?<i class="ion-android-remove"></i>
                 </a>
-                <div id="faq6" class="collapse" data-parent="#faq-list">
+                <div id="faq8" class="collapse" data-parent="#faq-list">
                   <p>
                     Not at all! We want you to be sure you'll receive the
                     product you desire. From the planning stage to each finished
@@ -164,11 +164,11 @@ export default class Frequently extends Component {
                 </div>
               </li>
               <li>
-                <a data-toggle="collapse" href="#faq6" class="collapsed">
+                <a data-toggle="collapse" href="#faq9" class="collapsed">
                   Why should I choose you and not hire my own software
                   development team?<i class="ion-android-remove"></i>
                 </a>
-                <div id="faq6" class="collapse" data-parent="#faq-list">
+                <div id="faq9" class="collapse" data-parent="#faq-list">
                   <p>
                     Hiring your own software developers can be a really smart
                     choice, however, recruitment process is time-consuming and
@@ -181,11 +181,11 @@ export default class Frequently extends Component {
                 </div>
               </li>
               <li>
-                <a data-toggle="collapse" href="#faq6" class="collapsed">
+                <a data-toggle="collapse" href="#faq10" class="collapsed">
                   What happens after you finish my app?
                   <i class="ion-android-remove"></i>
                 </a>
-                <div id="faq6" class="collapse" data-parent="#faq-list">
+                <div id="faq10" class="collapse" data-parent="#faq-list">
                   <p>
                     Hopefully the app is exactly what you dreamed of :) But
                     apart from delivering a finished product, we are happy to
@@ -199,12 +199,12 @@ export default class Frequently extends Component {
                 </div>
               </li>
               <li>
-                <a data-toggle="collapse" href="#faq6" class="collapsed">
+                <a data-toggle="collapse" href="#faq11" class="collapsed">
                   {" "}
                   Are you able to double the size of the team involved in the
                   project if the need arises?<i class="ion-android-remove"></i>
                 </a>
-                <div id="faq6" class="collapse" data-parent="#faq-list">
+                <div id="faq11" class="collapse" data-parent="#faq-list">
                   <p>
                     Whether you want to expand your product or create a
                     completely new one simultaneously, and then again focus only

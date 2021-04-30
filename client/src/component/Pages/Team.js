@@ -20,16 +20,16 @@ export default class Team extends Component {
                       <h4>Ugwu Isaac Chinenye</h4>
                       <span>Manager</span>
                       <div class="social">
-                        <a href="">
-                          <i class="fa fa-twitter"></i>
+                      <a href="https://www.instagram.com/uic__melody/">
+                          <i class="fa fa-instagram"></i>
                         </a>
-                        <a href="">
+                        <a   href="https://www.facebook.com/ugwu.isaac.5">
                           <i class="fa fa-facebook"></i>
                         </a>
-                        <a href="">
+                        <a href="https://www.uicsoft1@gmail.com">
                           <i class="fa fa-google-plus"></i>
                         </a>
-                        <a href="">
+                        <a href="https://www.linkedin.com/in/isaac-ugwu-2b6355193">
                           <i class="fa fa-linkedin"></i>
                         </a>
                       </div>
@@ -46,16 +46,16 @@ export default class Team extends Component {
                       <h4>Godswill Uche</h4>
                       <span>Product Manager</span>
                       <div class="social">
-                        <a href="">
-                          <i class="fa fa-twitter"></i>
+                        <a href="https://www.instagram.com/uic__melody/">
+                          <i class="fa fa-instagram"></i>
                         </a>
-                        <a href="">
+                        <a   href="https://www.facebook.com/ugwu.isaac.5">
                           <i class="fa fa-facebook"></i>
                         </a>
-                        <a href="">
+                        <a href="https://www.uicsoft1@gmail.com">
                           <i class="fa fa-google-plus"></i>
                         </a>
-                        <a href="">
+                        <a href="https://www.linkedin.com/in/isaac-ugwu-2b6355193">
                           <i class="fa fa-linkedin"></i>
                         </a>
                       </div>
@@ -70,18 +70,18 @@ export default class Team extends Component {
                   <div class="member-info">
                     <div class="member-info-content">
                       <h4>Wale Akinpelu</h4>
-                      <span>Graphic Design</span>
+                      <span>Graphic Designer</span>
                       <div class="social">
-                        <a href="">
-                          <i class="fa fa-twitter"></i>
+                      <a href="https://www.instagram.com/uic__melody/">
+                          <i class="fa fa-instagram"></i>
                         </a>
-                        <a href="">
+                        <a   href="https://www.facebook.com/ugwu.isaac.5">
                           <i class="fa fa-facebook"></i>
                         </a>
-                        <a href="">
+                        <a href="https://www.uicsoft1@gmail.com">
                           <i class="fa fa-google-plus"></i>
                         </a>
-                        <a href="">
+                        <a href="https://www.linkedin.com/in/isaac-ugwu-2b6355193">
                           <i class="fa fa-linkedin"></i>
                         </a>
                       </div>
@@ -98,16 +98,16 @@ export default class Team extends Component {
                       <h4>Moses Emeka</h4>
                       <span>Accountant</span>
                       <div class="social">
-                        <a href="">
-                          <i class="fa fa-twitter"></i>
+                      <a href="https://www.instagram.com/uic__melody/">
+                          <i class="fa fa-instagram"></i>
                         </a>
-                        <a href="">
+                        <a   href="https://www.facebook.com/ugwu.isaac.5">
                           <i class="fa fa-facebook"></i>
                         </a>
-                        <a href="">
+                        <a href="https://www.uicsoft1@gmail.com">
                           <i class="fa fa-google-plus"></i>
                         </a>
-                        <a href="">
+                        <a href="https://www.linkedin.com/in/isaac-ugwu-2b6355193">
                           <i class="fa fa-linkedin"></i>
                         </a>
                       </div>

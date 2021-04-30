@@ -1,23 +1,32 @@
 
 
 import React, { Component } from 'react'
-import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
+import { Link, withRouter } from "react-router-dom";
+import { connect } from "react-redux";
+import { headerLoginModal } from '../../../redux/action/headerLoginmodalAction'
 
-export default class Header extends Component {
+
+import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
+ class Header extends Component {
     constructor(props){
         super(props)
-        this.state=
-          {setModal : false}
-          this.toggle = this.toggle.bind(this) 
-      }
-     toggle (){
-      this.setState ( {setModal : !this.state.setModal})
-       console.log(this.state.setModal)
+    //     this.state=
+    //       {setModal : false}
+    //       this.toggle = this.toggle.bind(this) 
+    //   }
+    //  toggle (){
+    //   this.setState ( {setModal : !this.state.setModal})
+    //    console.log(this.state.setModal)
+
     }
     render() {
+         const {setModal,toggle} = this.props ;
+        console.log(toggle);
+        const hi = document.getElementById('k')
+        console.log(hi);     
         return (
             <div>
-                            <header id="header">
+                    <header id="header">
                     <div id="topbar">
                     <div class="container">
                         <div class="social-links">
@@ -37,9 +46,9 @@ export default class Header extends Component {
                     </div>
                    
                    <div class="float-right">
-                   <Button color="primary" onClick={this.toggle}>Log In</Button>
-                            <Modal isOpen={this.state.setModal} toggle={this.toggle}>
-                                <ModalHeader toggle={this.toggle}>Modal title</ModalHeader>
+                   {/* <Button color="primary" onClick={toggle}>Log In</Button>
+                            <Modal isOpen={setModal} toggle={toggle}>
+                                <ModalHeader id="k" toggle={toggle}>Modal title</ModalHeader>
                                 <ModalBody>
                                 <form action="" method="post" role="form" class="contactForm">
                 <div class="form-group">
@@ -63,10 +72,10 @@ export default class Header extends Component {
               </form>
                                 </ModalBody>
                                 <ModalFooter>
-                                <Button color="primary" onClick={this.toggle}>Do Something</Button>{' '}
-                                <Button color="secondary" onClick={this.toggle}>Cancel</Button>
+                                <Button color="primary" onClick={toggle}>Do Something</Button>{' '}
+                                <Button color="secondary" onClick={toggle}>Cancel</Button>
                                 </ModalFooter>
-                            </Modal>
+                            </Modal> */}
                    </div>
                     <nav class="main-nav float-right d-none d-lg-block">
                  
@@ -99,8 +108,6 @@ export default class Header extends Component {
                         </ul>
                      
                     </nav>
-
-                    
                     </div>
                 </header>
                 <section id="intro" class="clearfix">
@@ -113,8 +120,6 @@ export default class Header extends Component {
                         </div>
                     </div>
                         
-                        
-                
                         <div class="col-md-6 intro-img order-md-last order-first">
                         <img src="assets/img/intro-img.svg" alt="" class="img-fluid"/>
                         </div>
@@ -126,5 +131,25 @@ export default class Header extends Component {
                 <main id="main"/>
             </div>
         )
+ 
     }
+ 
+       
+    
+
 }
+
+ 
+
+
+const mapDispatchToProps=(dispatch)=>({
+    toggle: ()=>( dispatch (headerLoginModal()))})
+
+// const mapDispatchToProps={
+//     headerLoginModal();
+// }
+const mapStateToProps = (state) => ({setModal: state.headerLreducer.setModal} )
+
+const headerContainer = connect(mapStateToProps,mapDispatchToProps)(Header);
+
+export default headerContainer;

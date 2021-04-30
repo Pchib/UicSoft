@@ -4,15 +4,13 @@ import {
   
   const initialState = {
     setModal : false
-
   }
   
   export default (state = initialState, action) => {
-    switch (action.type) {
+    switch (action.type){
       case TOGGLE:
         return {
-          ...state,
-          setModal : !setModal
+          setModal : !initialState.setModal
         }
       default:
         return state

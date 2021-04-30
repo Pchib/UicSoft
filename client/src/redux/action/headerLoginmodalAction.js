@@ -3,6 +3,6 @@ export const headerLoginModal=()=>dispatch=>{
       type: TOGGLE,
     })
   }
-  
+  console.log('woking');
   export const TOGGLE = 'TOGGLE'
   

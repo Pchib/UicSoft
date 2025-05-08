@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cormorant Garamond';
+    overflow-x: hidden;
+}
+
+  #slider {
+    position: relative;
+    width: 100%;
+    height: 55vw;
+    overflow: hidden;
+  }
+  
+  .slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: 100%;
+    display: none;
+    opacity: 0;
+    transition: opacity 0.8s ease-in-out;
+  }
+  
+  /* Active slide: show and start zooming background */
+  .slide.active {
+    display: block;
+    opacity: 1;
+    animation: zoomBg 5s linear forwards;
+  }
+  
+  /* Overlay to tint the background */
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.315);
+  }
+  
+  /* Slide content container */
+  .slide-content {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    top: 45%;
+    transform: translateY(-50%);
+    padding: 0 20px;
+    color: #fff;
+  }
+  
+  /* Hide text & buttons initially so they animate in */
+  .slide-content h4,
+  .slide-content h2,
+  .slide-content p,
+  .slide-content .btn-container a {
+    opacity: 0;
+  }
+  
+  /* Animate text sliding from the top */
+  .slide-content h4 {
+    animation: slideDown 1s forwards;
+  }
+  .slide-content h2 {
+    animation: slideDown 1s forwards;
+    animation-delay: 0.2s;
+    color: #fff;
+  }
+  .slide-content p {
+    animation: slideDown 1s forwards;
+    animation-delay: 0.4s;
+    padding-bottom: 30px;
+  }
+  
+  /* Animate buttons sliding in from bottom */
+  .slide-content .btn-container a {
+    animation: slideUp 1s forwards;
+    animation-delay: 0.6s;
+    margin-right: 10px;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 4px;
+    transition: opacity 0.3s;
+    
+  }
+  
+  /* Primary button style */
+  .slide-content .btn-container a.primary {
+    background: #7F36BC;
+    color: #fff;
+  }
+  
+  /* Secondary button style */
+  .slide-content .btn-container a.secondary {
+    background: transparent;
+    border: 2px solid #7F36BC;
+    color: #fff;
+  }
+  
+  /* Navigation buttons */
+  button.nav-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 999;
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  button.nav-btn.left { left: 20px; }
+  button.nav-btn.right { right: 20px; }
+  
+  /* Keyframe for zooming background */
+  @keyframes zoomBg {
+    from { background-size: 100%; }
+    to   { background-size: 120%; }
+  }
+  
+  /* Keyframe for text sliding from the top */
+  @keyframes slideDown {
+    from { transform: translateY(-50px); opacity: 0; }
+    to   { transform: translateY(0); opacity: 1; }
+  }
+  
+  /* Keyframe for buttons sliding from the bottom */
+  @keyframes slideUp {
+    from { transform: translateY(50px); opacity: 0; }
+    to   { transform: translateY(0); opacity: 1; }
+  }
+  
